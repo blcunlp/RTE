@@ -1,0 +1,161 @@
+Epoch: 1 train_acc: 0.631 train_loss 104.646 train_global_step:4291
+Epoch: 1 dev_acc: 0.718 dev_loss 0.669
+Epoch: 1 test_acc: 0.723 test_loss 0.662
+train_global_step:4291.  Saving 0 model to model_saved.
+2017-09-28 16:49:00
+################# all_training time: 7.0 one_epoch time: 7.0 ############### 
+Epoch: 2 train_acc: 0.717 train_loss 85.762 train_global_step:8582
+Epoch: 2 dev_acc: 0.761 dev_loss 0.578
+Epoch: 2 test_acc: 0.760 test_loss 0.580
+train_global_step:8582.  Saving 1 model to model_saved.
+2017-09-28 16:56:45
+################# all_training time: 15.0 one_epoch time: 7.0 ############### 
+Epoch: 3 train_acc: 0.747 train_loss 78.259 train_global_step:12873
+Epoch: 3 dev_acc: 0.790 dev_loss 0.529
+Epoch: 3 test_acc: 0.789 test_loss 0.530
+train_global_step:12873.  Saving 2 model to model_saved.
+2017-09-28 17:04:30
+################# all_training time: 23.0 one_epoch time: 7.0 ############### 
+Epoch: 4 train_acc: 0.768 train_loss 73.065 train_global_step:17164
+Epoch: 4 dev_acc: 0.804 dev_loss 0.501
+Epoch: 4 test_acc: 0.799 test_loss 0.501
+train_global_step:17164.  Saving 3 model to model_saved.
+2017-09-28 17:12:16
+################# all_training time: 31.0 one_epoch time: 7.0 ############### 
+Epoch: 5 train_acc: 0.782 train_loss 69.424 train_global_step:21455
+Epoch: 5 dev_acc: 0.815 dev_loss 0.473
+Epoch: 5 test_acc: 0.812 test_loss 0.476
+train_global_step:21455.  Saving 4 model to model_saved.
+2017-09-28 17:20:01
+################# all_training time: 38.0 one_epoch time: 7.0 ############### 
+Epoch: 6 train_acc: 0.793 train_loss 66.488 train_global_step:25746
+Epoch: 6 dev_acc: 0.829 dev_loss 0.451
+Epoch: 6 test_acc: 0.825 test_loss 0.450
+train_global_step:25746.  Saving 5 model to model_saved.
+2017-09-28 17:27:46
+################# all_training time: 46.0 one_epoch time: 7.0 ############### 
+Epoch: 7 train_acc: 0.800 train_loss 64.359 train_global_step:30037
+Epoch: 7 dev_acc: 0.831 dev_loss 0.442
+Epoch: 7 test_acc: 0.828 test_loss 0.446
+train_global_step:30037.  Saving 6 model to model_saved.
+2017-09-28 17:35:31
+################# all_training time: 54.0 one_epoch time: 7.0 ############### 
+Epoch: 8 train_acc: 0.807 train_loss 62.512 train_global_step:34328
+Epoch: 8 dev_acc: 0.838 dev_loss 0.433
+Epoch: 8 test_acc: 0.836 test_loss 0.432
+train_global_step:34328.  Saving 7 model to model_saved.
+2017-09-28 17:43:16
+################# all_training time: 62.0 one_epoch time: 7.0 ############### 
+Epoch: 9 train_acc: 0.813 train_loss 61.016 train_global_step:38619
+Epoch: 9 dev_acc: 0.841 dev_loss 0.424
+Epoch: 9 test_acc: 0.837 test_loss 0.426
+train_global_step:38619.  Saving 8 model to model_saved.
+2017-09-28 17:51:01
+################# all_training time: 69.0 one_epoch time: 7.0 ############### 
+Epoch: 10 train_acc: 0.817 train_loss 59.844 train_global_step:42910
+Epoch: 10 dev_acc: 0.845 dev_loss 0.420
+Epoch: 10 test_acc: 0.835 test_loss 0.424
+train_global_step:42910.  Saving 9 model to model_saved.
+2017-09-28 17:58:46
+################# all_training time: 77.0 one_epoch time: 7.0 ############### 
+Epoch: 11 train_acc: 0.820 train_loss 58.782 train_global_step:47201
+Epoch: 11 dev_acc: 0.847 dev_loss 0.414
+Epoch: 11 test_acc: 0.843 test_loss 0.417
+train_global_step:47201.  Saving 10 model to model_saved.
+2017-09-28 18:06:31
+################# all_training time: 85.0 one_epoch time: 7.0 ############### 
+Epoch: 12 train_acc: 0.824 train_loss 57.858 train_global_step:51492
+Epoch: 12 dev_acc: 0.845 dev_loss 0.415
+Epoch: 12 test_acc: 0.844 test_loss 0.414
+################# all_training time: 93.0 one_epoch time: 7.0 ############### 
+Epoch: 13 train_acc: 0.826 train_loss 56.942 train_global_step:55783
+Epoch: 13 dev_acc: 0.847 dev_loss 0.417
+Epoch: 13 test_acc: 0.842 test_loss 0.415
+train_global_step:55783.  Saving 12 model to model_saved.
+2017-09-28 18:22:00
+################# all_training time: 100.0 one_epoch time: 7.0 ############### 
+Epoch: 14 train_acc: 0.830 train_loss 56.262 train_global_step:60074
+Epoch: 14 dev_acc: 0.849 dev_loss 0.401
+Epoch: 14 test_acc: 0.848 test_loss 0.404
+train_global_step:60074.  Saving 13 model to model_saved.
+2017-09-28 18:29:45
+################# all_training time: 108.0 one_epoch time: 7.0 ############### 
+Epoch: 15 train_acc: 0.831 train_loss 55.702 train_global_step:64365
+Epoch: 15 dev_acc: 0.850 dev_loss 0.403
+Epoch: 15 test_acc: 0.846 test_loss 0.405
+train_global_step:64365.  Saving 14 model to model_saved.
+2017-09-28 18:37:30
+################# all_training time: 116.0 one_epoch time: 7.0 ############### 
+Epoch: 16 train_acc: 0.833 train_loss 55.027 train_global_step:68656
+Epoch: 16 dev_acc: 0.850 dev_loss 0.401
+Epoch: 16 test_acc: 0.850 test_loss 0.402
+train_global_step:68656.  Saving 15 model to model_saved.
+2017-09-28 18:45:15
+################# all_training time: 123.0 one_epoch time: 7.0 ############### 
+Epoch: 17 train_acc: 0.835 train_loss 54.470 train_global_step:72947
+Epoch: 17 dev_acc: 0.854 dev_loss 0.398
+Epoch: 17 test_acc: 0.852 test_loss 0.401
+train_global_step:72947.  Saving 16 model to model_saved.
+2017-09-28 18:53:00
+################# all_training time: 131.0 one_epoch time: 7.0 ############### 
+Epoch: 18 train_acc: 0.837 train_loss 53.996 train_global_step:77238
+Epoch: 18 dev_acc: 0.856 dev_loss 0.393
+Epoch: 18 test_acc: 0.851 test_loss 0.399
+train_global_step:77238.  Saving 17 model to model_saved.
+2017-09-28 19:00:45
+################# all_training time: 139.0 one_epoch time: 7.0 ############### 
+Epoch: 19 train_acc: 0.839 train_loss 53.422 train_global_step:81529
+Epoch: 19 dev_acc: 0.855 dev_loss 0.391
+Epoch: 19 test_acc: 0.851 test_loss 0.396
+################# all_training time: 147.0 one_epoch time: 7.0 ############### 
+Epoch: 20 train_acc: 0.840 train_loss 53.057 train_global_step:85820
+Epoch: 20 dev_acc: 0.852 dev_loss 0.393
+Epoch: 20 test_acc: 0.850 test_loss 0.398
+################# all_training time: 154.0 one_epoch time: 7.0 ############### 
+Epoch: 21 train_acc: 0.841 train_loss 52.604 train_global_step:90111
+Epoch: 21 dev_acc: 0.857 dev_loss 0.390
+Epoch: 21 test_acc: 0.853 test_loss 0.394
+train_global_step:90111.  Saving 20 model to model_saved.
+2017-09-28 19:24:00
+################# all_training time: 162.0 one_epoch time: 7.0 ############### 
+Epoch: 22 train_acc: 0.842 train_loss 52.273 train_global_step:94402
+Epoch: 22 dev_acc: 0.856 dev_loss 0.391
+Epoch: 22 test_acc: 0.853 test_loss 0.393
+################# all_training time: 170.0 one_epoch time: 7.0 ############### 
+Epoch: 23 train_acc: 0.844 train_loss 51.835 train_global_step:98693
+Epoch: 23 dev_acc: 0.855 dev_loss 0.390
+Epoch: 23 test_acc: 0.855 test_loss 0.394
+################# all_training time: 178.0 one_epoch time: 7.0 ############### 
+Epoch: 24 train_acc: 0.844 train_loss 51.681 train_global_step:102984
+Epoch: 24 dev_acc: 0.857 dev_loss 0.392
+Epoch: 24 test_acc: 0.854 test_loss 0.395
+train_global_step:102984.  Saving 23 model to model_saved.
+2017-09-28 19:47:14
+################# all_training time: 185.0 one_epoch time: 7.0 ############### 
+Epoch: 25 train_acc: 0.846 train_loss 51.283 train_global_step:107275
+Epoch: 25 dev_acc: 0.857 dev_loss 0.389
+Epoch: 25 test_acc: 0.853 test_loss 0.390
+train_global_step:107275.  Saving 24 model to model_saved.
+2017-09-28 19:54:59
+################# all_training time: 193.0 one_epoch time: 7.0 ############### 
+Epoch: 26 train_acc: 0.847 train_loss 50.965 train_global_step:111566
+Epoch: 26 dev_acc: 0.860 dev_loss 0.389
+Epoch: 26 test_acc: 0.855 test_loss 0.392
+train_global_step:111566.  Saving 25 model to model_saved.
+2017-09-28 20:02:44
+################# all_training time: 201.0 one_epoch time: 7.0 ############### 
+Epoch: 27 train_acc: 0.848 train_loss 50.540 train_global_step:115857
+Epoch: 27 dev_acc: 0.859 dev_loss 0.389
+Epoch: 27 test_acc: 0.854 test_loss 0.391
+################# all_training time: 209.0 one_epoch time: 7.0 ############### 
+Epoch: 28 train_acc: 0.849 train_loss 50.397 train_global_step:120148
+Epoch: 28 dev_acc: 0.857 dev_loss 0.388
+Epoch: 28 test_acc: 0.854 test_loss 0.392
+################# all_training time: 216.0 one_epoch time: 7.0 ############### 
+Epoch: 29 train_acc: 0.850 train_loss 50.034 train_global_step:124439
+Epoch: 29 dev_acc: 0.859 dev_loss 0.392
+Epoch: 29 test_acc: 0.852 test_loss 0.396
+################# all_training time: 224.0 one_epoch time: 7.0 ############### 
+Epoch: 30 train_acc: 0.850 train_loss 49.830 train_global_step:128730
+Epoch: 30 dev_acc: 0.857 dev_loss 0.388
+Epoch: 30 test_acc: 0.853 test_loss 0.392
