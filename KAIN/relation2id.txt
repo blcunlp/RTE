@@ -1,0 +1,6 @@
+Padding	0
+Synonym	1
+Antonym	2
+Hyponym	3
+Hypernym	4
+SameHyper	5
