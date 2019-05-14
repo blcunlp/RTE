@@ -1,0 +1,24 @@
+x_output Tensor("Train/Model/encode_x/dropout/mul:0", shape=(32, 32, 600), dtype=float32)
+y_output Tensor("Train/Model/encode_x/dropout_1/mul:0", shape=(32, 30, 600), dtype=float32)
+Model/encode_x/RNNParams:0 (1444800,)
+Model/collect-info/aggregate-fnn/3D-batch-fnn-layer/fnn-mxy_W:0 (2400, 300)
+Model/collect-info/aggregate-fnn/3D-batch-fnn-layer/fnn-mxy_W-b:0 (300,)
+Model/composition/encode_mxy/RNNParams:0 (1444800,)
+Model/pred-layer/fnn-layer/fnn-pred-W:0 (2400, 300)
+Model/pred-layer/fnn-layer/fnn-pred-W-b:0 (300,)
+Model/pred-layer/W_pred:0 (300, 3)
+x_output Tensor("Valid/Model/encode_x/transpose_1:0", shape=(1, 32, 600), dtype=float32)
+y_output Tensor("Valid/Model/encode_x/transpose_5:0", shape=(1, 30, 600), dtype=float32)
+x_output Tensor("Test/Model/encode_x/transpose_1:0", shape=(1, 32, 600), dtype=float32)
+y_output Tensor("Test/Model/encode_x/transpose_5:0", shape=(1, 30, 600), dtype=float32)
+loading model
+pre_trained model is in checkpoint
+confusion_matrix
+ [[2724  311  184]
+ [ 275 3038   55]
+ [ 257  103 2877]]
+confusion_matrix_normalize
+ [[ 0.846  0.097  0.057]
+ [ 0.082  0.902  0.016]
+ [ 0.079  0.032  0.889]]
+test_acc: 0.879 test_loss 0.391

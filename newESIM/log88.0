@@ -1,0 +1,273 @@
+WARNING:tensorflow:From /usr/local/lib/python3.5/dist-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /home/liulu/RTE/newESIM/snli_model_mask_lr.py:65: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From /home/liulu/RTE/newESIM/snli_model_mask_lr.py:194: calling reduce_max_v1 (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From /home/liulu/RTE/newESIM/snli_model_mask_lr.py:200: calling reduce_sum_v1 (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From /home/liulu/RTE/newESIM/snli_model_mask_lr.py:136: div (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Deprecated in favor of operator or tf.math.divide.
+WARNING:tensorflow:From /usr/local/lib/python3.5/dist-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From snli_train_lr.py:130: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+2019-05-13 13:53:19.311725: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-13 13:53:19.906573: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-05-13 13:53:19.907297: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x111b0e20 executing computations on platform CUDA. Devices:
+2019-05-13 13:53:19.907312: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): TITAN RTX, Compute Capability 7.5
+2019-05-13 13:53:19.908764: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4199900000 Hz
+2019-05-13 13:53:19.909124: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x10c2beb0 executing computations on platform Host. Devices:
+2019-05-13 13:53:19.909136: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-13 13:53:19.909577: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties: 
+name: TITAN RTX major: 7 minor: 5 memoryClockRate(GHz): 1.77
+pciBusID: 0000:01:00.0
+totalMemory: 23.62GiB freeMemory: 23.45GiB
+2019-05-13 13:53:19.909587: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-05-13 13:53:19.910326: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-13 13:53:19.910334: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0 
+2019-05-13 13:53:19.910338: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N 
+2019-05-13 13:53:19.910761: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 22815 MB memory) -> physical GPU (device: 0, name: TITAN RTX, pci bus id: 0000:01:00.0, compute capability: 7.5)
+2019-05-13 13:53:34.480794: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+scope.global_variables: [<tf.Variable 'Model/encode_x/cudnn_lstm/opaque_kernel:0' shape=<unknown> dtype=float32_ref>]
+x_output Tensor("Train/Model/encode_x/dropout/mul:0", shape=(128, 32, 600), dtype=float32)
+y_output Tensor("Train/Model/encode_x/dropout_1/mul:0", shape=(128, 30, 600), dtype=float32)
+scope.global_variables: [<tf.Variable 'Model/composition/encode_mxy/cudnn_lstm/opaque_kernel:0' shape=<unknown> dtype=float32_ref>]
+Model/encode_x/cudnn_lstm/opaque_kernel:0 <unknown>
+Model/collect-info/aggregate-fnn/3D-batch-fnn-layer/fnn-mxy_W:0 (2400, 300)
+Model/collect-info/aggregate-fnn/3D-batch-fnn-layer/fnn-mxy_W-b:0 (300,)
+Model/composition/encode_mxy/cudnn_lstm/opaque_kernel:0 <unknown>
+Model/pred-layer/fnn-layer/fnn-pred-W:0 (2400, 300)
+Model/pred-layer/fnn-layer/fnn-pred-W-b:0 (300,)
+Model/pred-layer/W_pred:0 (300, 3)
+scope.global_variables: [<tf.Variable 'Model/encode_x/cudnn_lstm/opaque_kernel:0' shape=<unknown> dtype=float32_ref>]
+x_output Tensor("Valid/Model/encode_x/transpose_1:0", shape=(1, 32, 600), dtype=float32)
+y_output Tensor("Valid/Model/encode_x/transpose_5:0", shape=(1, 30, 600), dtype=float32)
+scope.global_variables: [<tf.Variable 'Model/composition/encode_mxy/cudnn_lstm/opaque_kernel:0' shape=<unknown> dtype=float32_ref>]
+scope.global_variables: [<tf.Variable 'Model/encode_x/cudnn_lstm/opaque_kernel:0' shape=<unknown> dtype=float32_ref>]
+x_output Tensor("Test/Model/encode_x/transpose_1:0", shape=(1, 32, 600), dtype=float32)
+y_output Tensor("Test/Model/encode_x/transpose_5:0", shape=(1, 30, 600), dtype=float32)
+scope.global_variables: [<tf.Variable 'Model/composition/encode_mxy/cudnn_lstm/opaque_kernel:0' shape=<unknown> dtype=float32_ref>]
+Epoch: 1 train_acc: 0.733 train_loss 81.627 train_global_step:4291
+Epoch: 1 dev_acc: 0.824 dev_loss 0.447
+Epoch: 1 test_acc: 0.826 test_loss 0.448
+train_global_step:4291.  Saving 1 model to model_saved0513_1.
+2019-05-13 13:59:14
+################# all_training time: 5.0 one_epoch time: 5.0 ############### 
+Epoch: 2 train_acc: 0.807 train_loss 62.654 train_global_step:8582
+Epoch: 2 dev_acc: 0.845 dev_loss 0.397
+Epoch: 2 test_acc: 0.842 test_loss 0.403
+train_global_step:8582.  Saving 2 model to model_saved0513_1.
+2019-05-13 14:05:04
+################# all_training time: 11.0 one_epoch time: 5.0 ############### 
+Epoch: 3 train_acc: 0.827 train_loss 57.179 train_global_step:12873
+Epoch: 3 dev_acc: 0.857 dev_loss 0.377
+Epoch: 3 test_acc: 0.854 test_loss 0.378
+train_global_step:12873.  Saving 3 model to model_saved0513_1.
+2019-05-13 14:10:44
+################# all_training time: 17.0 one_epoch time: 5.0 ############### 
+Epoch: 4 train_acc: 0.839 train_loss 53.684 train_global_step:17164
+Epoch: 4 dev_acc: 0.861 dev_loss 0.366
+Epoch: 4 test_acc: 0.858 test_loss 0.368
+train_global_step:17164.  Saving 4 model to model_saved0513_1.
+2019-05-13 14:16:37
+################# all_training time: 23.0 one_epoch time: 5.0 ############### 
+Epoch: 5 train_acc: 0.848 train_loss 50.967 train_global_step:21455
+Epoch: 5 dev_acc: 0.866 dev_loss 0.358
+Epoch: 5 test_acc: 0.862 test_loss 0.361
+WARNING:tensorflow:From /usr/local/lib/python3.5/dist-packages/tensorflow/python/training/saver.py:966: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+train_global_step:21455.  Saving 5 model to model_saved0513_1.
+2019-05-13 14:22:31
+################# all_training time: 28.0 one_epoch time: 5.0 ############### 
+Epoch: 6 train_acc: 0.854 train_loss 48.974 train_global_step:25746
+Epoch: 6 dev_acc: 0.869 dev_loss 0.353
+Epoch: 6 test_acc: 0.866 test_loss 0.354
+train_global_step:25746.  Saving 6 model to model_saved0513_1.
+2019-05-13 14:28:20
+################# all_training time: 34.0 one_epoch time: 5.0 ############### 
+Epoch: 7 train_acc: 0.860 train_loss 47.171 train_global_step:30037
+Epoch: 7 dev_acc: 0.868 dev_loss 0.356
+Epoch: 7 test_acc: 0.870 test_loss 0.352
+################# all_training time: 40.0 one_epoch time: 5.0 ############### 
+Epoch: 8 train_acc: 0.865 train_loss 45.761 train_global_step:34328
+Epoch: 8 dev_acc: 0.871 dev_loss 0.347
+Epoch: 8 test_acc: 0.870 test_loss 0.347
+train_global_step:34328.  Saving 8 model to model_saved0513_1.
+2019-05-13 14:39:54
+################# all_training time: 46.0 one_epoch time: 5.0 ############### 
+Epoch: 9 train_acc: 0.870 train_loss 44.244 train_global_step:38619
+Epoch: 9 dev_acc: 0.875 dev_loss 0.341
+Epoch: 9 test_acc: 0.873 test_loss 0.339
+train_global_step:38619.  Saving 9 model to model_saved0513_1.
+2019-05-13 14:45:38
+################# all_training time: 52.0 one_epoch time: 5.0 ############### 
+Epoch: 10 train_acc: 0.874 train_loss 43.068 train_global_step:42910
+Epoch: 10 dev_acc: 0.874 dev_loss 0.341
+Epoch: 10 test_acc: 0.873 test_loss 0.340
+################# all_training time: 57.0 one_epoch time: 5.0 ############### 
+Epoch: 11 train_acc: 0.877 train_loss 42.016 train_global_step:47201
+Epoch: 11 dev_acc: 0.877 dev_loss 0.339
+Epoch: 11 test_acc: 0.876 test_loss 0.342
+train_global_step:47201.  Saving 11 model to model_saved0513_1.
+2019-05-13 14:57:18
+################# all_training time: 63.0 one_epoch time: 5.0 ############### 
+Epoch: 12 train_acc: 0.880 train_loss 40.964 train_global_step:51492
+Epoch: 12 dev_acc: 0.876 dev_loss 0.346
+Epoch: 12 test_acc: 0.875 test_loss 0.343
+################# all_training time: 69.0 one_epoch time: 5.0 ############### 
+Epoch: 13 train_acc: 0.884 train_loss 39.859 train_global_step:55783
+Epoch: 13 dev_acc: 0.876 dev_loss 0.342
+Epoch: 13 test_acc: 0.876 test_loss 0.342
+################# all_training time: 75.0 one_epoch time: 5.0 ############### 
+Epoch: 14 train_acc: 0.887 train_loss 38.828 train_global_step:60074
+Epoch: 14 dev_acc: 0.876 dev_loss 0.350
+Epoch: 14 test_acc: 0.873 test_loss 0.355
+################# all_training time: 81.0 one_epoch time: 5.0 ############### 
+Epoch: 15 train_acc: 0.889 train_loss 38.162 train_global_step:64365
+Epoch: 15 dev_acc: 0.877 dev_loss 0.348
+Epoch: 15 test_acc: 0.876 test_loss 0.350
+train_global_step:64365.  Saving 15 model to model_saved0513_1.
+2019-05-13 15:20:33
+################# all_training time: 86.0 one_epoch time: 5.0 ############### 
+Epoch: 16 train_acc: 0.892 train_loss 37.230 train_global_step:68656
+Epoch: 16 dev_acc: 0.876 dev_loss 0.355
+Epoch: 16 test_acc: 0.877 test_loss 0.353
+################# all_training time: 92.0 one_epoch time: 5.0 ############### 
+Epoch: 17 train_acc: 0.894 train_loss 36.410 train_global_step:72947
+Epoch: 17 dev_acc: 0.876 dev_loss 0.350
+Epoch: 17 test_acc: 0.879 test_loss 0.352
+################# all_training time: 98.0 one_epoch time: 5.0 ############### 
+Epoch: 18 train_acc: 0.897 train_loss 35.737 train_global_step:77238
+Epoch: 18 dev_acc: 0.878 dev_loss 0.345
+Epoch: 18 test_acc: 0.876 test_loss 0.354
+train_global_step:77238.  Saving 18 model to model_saved0513_1.
+2019-05-13 15:37:51
+################# all_training time: 104.0 one_epoch time: 5.0 ############### 
+Epoch: 19 train_acc: 0.899 train_loss 34.858 train_global_step:81529
+Epoch: 19 dev_acc: 0.878 dev_loss 0.353
+Epoch: 19 test_acc: 0.877 test_loss 0.361
+################# all_training time: 109.0 one_epoch time: 5.0 ############### 
+Epoch: 20 train_acc: 0.901 train_loss 34.260 train_global_step:85820
+Epoch: 20 dev_acc: 0.877 dev_loss 0.353
+Epoch: 20 test_acc: 0.876 test_loss 0.361
+################# all_training time: 115.0 one_epoch time: 5.0 ############### 
+Epoch: 21 train_acc: 0.903 train_loss 33.742 train_global_step:90111
+Epoch: 21 dev_acc: 0.878 dev_loss 0.362
+Epoch: 21 test_acc: 0.876 test_loss 0.365
+################# all_training time: 121.0 one_epoch time: 5.0 ############### 
+Epoch: 22 train_acc: 0.905 train_loss 33.048 train_global_step:94402
+Epoch: 22 dev_acc: 0.875 dev_loss 0.361
+Epoch: 22 test_acc: 0.875 test_loss 0.365
+################# all_training time: 127.0 one_epoch time: 5.0 ############### 
+Epoch: 23 train_acc: 0.906 train_loss 32.491 train_global_step:98693
+Epoch: 23 dev_acc: 0.875 dev_loss 0.364
+Epoch: 23 test_acc: 0.879 test_loss 0.366
+################# all_training time: 133.0 one_epoch time: 5.0 ############### 
+Epoch: 24 train_acc: 0.908 train_loss 31.934 train_global_step:102984
+Epoch: 24 dev_acc: 0.876 dev_loss 0.370
+Epoch: 24 test_acc: 0.874 test_loss 0.371
+learning_rate-->change!Dang!Dang!Dang!-->0.0000084442
+################# all_training time: 138.0 one_epoch time: 5.0 ############### 
+Epoch: 25 train_acc: 0.914 train_loss 29.874 train_global_step:107275
+Epoch: 25 dev_acc: 0.879 dev_loss 0.381
+Epoch: 25 test_acc: 0.878 test_loss 0.382
+train_global_step:107275.  Saving 25 model to model_saved0513_1.
+2019-05-13 16:17:55
+################# all_training time: 144.0 one_epoch time: 5.0 ############### 
+Epoch: 26 train_acc: 0.916 train_loss 29.269 train_global_step:111566
+Epoch: 26 dev_acc: 0.878 dev_loss 0.380
+Epoch: 26 test_acc: 0.878 test_loss 0.381
+################# all_training time: 149.0 one_epoch time: 4.0 ############### 
+Epoch: 27 train_acc: 0.917 train_loss 28.825 train_global_step:115857
+Epoch: 27 dev_acc: 0.879 dev_loss 0.383
+Epoch: 27 test_acc: 0.879 test_loss 0.384
+################# all_training time: 153.0 one_epoch time: 4.0 ############### 
+Epoch: 28 train_acc: 0.918 train_loss 28.710 train_global_step:120148
+Epoch: 28 dev_acc: 0.879 dev_loss 0.382
+Epoch: 28 test_acc: 0.880 test_loss 0.383
+################# all_training time: 158.0 one_epoch time: 4.0 ############### 
+Epoch: 29 train_acc: 0.919 train_loss 28.314 train_global_step:124439
+Epoch: 29 dev_acc: 0.880 dev_loss 0.384
+Epoch: 29 test_acc: 0.880 test_loss 0.385
+train_global_step:124439.  Saving 29 model to model_saved0513_1.
+2019-05-13 16:38:02
+################# all_training time: 164.0 one_epoch time: 5.0 ############### 
+Epoch: 30 train_acc: 0.919 train_loss 28.337 train_global_step:128730
+Epoch: 30 dev_acc: 0.879 dev_loss 0.383
+Epoch: 30 test_acc: 0.879 test_loss 0.384
+################# all_training time: 170.0 one_epoch time: 5.0 ############### 
+Epoch: 31 train_acc: 0.919 train_loss 28.193 train_global_step:133021
+Epoch: 31 dev_acc: 0.879 dev_loss 0.383
+Epoch: 31 test_acc: 0.880 test_loss 0.384
+################# all_training time: 175.0 one_epoch time: 5.0 ############### 
+Epoch: 32 train_acc: 0.920 train_loss 27.958 train_global_step:137312
+Epoch: 32 dev_acc: 0.879 dev_loss 0.385
+Epoch: 32 test_acc: 0.879 test_loss 0.385
+################# all_training time: 181.0 one_epoch time: 5.0 ############### 
+Epoch: 33 train_acc: 0.920 train_loss 27.914 train_global_step:141603
+Epoch: 33 dev_acc: 0.879 dev_loss 0.384
+Epoch: 33 test_acc: 0.880 test_loss 0.384
+################# all_training time: 187.0 one_epoch time: 5.0 ############### 
+Epoch: 34 train_acc: 0.921 train_loss 27.726 train_global_step:145894
+Epoch: 34 dev_acc: 0.880 dev_loss 0.384
+Epoch: 34 test_acc: 0.880 test_loss 0.384
+train_global_step:145894.  Saving 34 model to model_saved0513_1.
+2019-05-13 17:06:44
+################# all_training time: 193.0 one_epoch time: 5.0 ############### 
+Epoch: 35 train_acc: 0.921 train_loss 27.713 train_global_step:150185
+Epoch: 35 dev_acc: 0.879 dev_loss 0.384
+Epoch: 35 test_acc: 0.879 test_loss 0.384
+################# all_training time: 198.0 one_epoch time: 5.0 ############### 
+Epoch: 36 train_acc: 0.921 train_loss 27.420 train_global_step:154476
+Epoch: 36 dev_acc: 0.879 dev_loss 0.386
+Epoch: 36 test_acc: 0.880 test_loss 0.385
+################# all_training time: 204.0 one_epoch time: 5.0 ############### 
+Epoch: 37 train_acc: 0.921 train_loss 27.461 train_global_step:158767
+Epoch: 37 dev_acc: 0.879 dev_loss 0.385
+Epoch: 37 test_acc: 0.880 test_loss 0.385
+################# all_training time: 210.0 one_epoch time: 5.0 ############### 
+Epoch: 38 train_acc: 0.922 train_loss 27.427 train_global_step:163058
+Epoch: 38 dev_acc: 0.879 dev_loss 0.385
+Epoch: 38 test_acc: 0.880 test_loss 0.384
+################# all_training time: 216.0 one_epoch time: 5.0 ############### 
+Epoch: 39 train_acc: 0.922 train_loss 27.292 train_global_step:167349
+Epoch: 39 dev_acc: 0.879 dev_loss 0.386
+Epoch: 39 test_acc: 0.881 test_loss 0.385
+################# all_training time: 222.0 one_epoch time: 5.0 ############### 
+Epoch: 40 train_acc: 0.923 train_loss 27.253 train_global_step:171640
+Epoch: 40 dev_acc: 0.878 dev_loss 0.386
+Epoch: 40 test_acc: 0.881 test_loss 0.385
+learning_rate-->change!Dang!Dang!Dang!-->0.0000002377
+################# all_training time: 227.0 one_epoch time: 5.0 ############### 
+Epoch: 41 train_acc: 0.923 train_loss 27.055 train_global_step:175931
+Epoch: 41 dev_acc: 0.878 dev_loss 0.385
+Epoch: 41 test_acc: 0.881 test_loss 0.385
+################# all_training time: 233.0 one_epoch time: 5.0 ############### 
+Epoch: 42 train_acc: 0.923 train_loss 27.133 train_global_step:180222
+Epoch: 42 dev_acc: 0.878 dev_loss 0.385
+Epoch: 42 test_acc: 0.881 test_loss 0.384
+################# all_training time: 239.0 one_epoch time: 5.0 ############### 
+Epoch: 43 train_acc: 0.923 train_loss 27.179 train_global_step:184513
+Epoch: 43 dev_acc: 0.878 dev_loss 0.384
+Epoch: 43 test_acc: 0.881 test_loss 0.384
+################# all_training time: 245.0 one_epoch time: 5.0 ############### 
+Epoch: 44 train_acc: 0.923 train_loss 27.058 train_global_step:188804
+Epoch: 44 dev_acc: 0.878 dev_loss 0.384
+Epoch: 44 test_acc: 0.881 test_loss 0.383
+################# all_training time: 251.0 one_epoch time: 5.0 ############### 
+Epoch: 45 train_acc: 0.923 train_loss 27.139 train_global_step:193095
+Epoch: 45 dev_acc: 0.878 dev_loss 0.384
+Epoch: 45 test_acc: 0.881 test_loss 0.383
+################# all_training time: 256.0 one_epoch time: 5.0 ############### 
+best_val_epoch:34  best_val_accuracy:0.8800040642145905
+best_test_epoch:39  best_test_accuracy:0.8808021172638436
+2019-05-13 18:10:30
